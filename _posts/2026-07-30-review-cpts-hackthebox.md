@@ -175,3 +175,9 @@ Este intento me lo tomé mucho más relajado que el primero. Durante los primero
 - Día 5:   Flags 10 y 11
 - Día 7:   Flag 12
 - Día 8-10: Perfeccionar el informe
+
+### Resultados 
+
+Los resultados me los entregaron súper rápido, 32 horas después de haber terminado el examen 
+
+![](/assets/aprove.png)
