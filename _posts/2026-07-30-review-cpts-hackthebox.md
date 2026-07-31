@@ -48,3 +48,8 @@ En caso de que seas estudiante, puedes aprovechar el plan especial que ofrece **
 -  **Precio**: $210
 
 > Sea el que elijas, vas a tener **2** oportunidades para rendir el examen
+{: .prompt-info }
+
+-----
+
+## 2. Penetration Tester Job Role Path
