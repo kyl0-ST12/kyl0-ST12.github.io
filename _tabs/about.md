@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## `whoami`
+## whoami
 
 Soy **Kylo**, profesional de ciberseguridad enfocado en **seguridad ofensiva**:
 red team, penetration testing y Active Directory.
