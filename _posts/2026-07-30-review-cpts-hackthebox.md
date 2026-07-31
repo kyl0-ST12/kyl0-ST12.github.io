@@ -138,3 +138,40 @@ Esto te ayudará en varios aspectos:
 ----
 
 ## 4. Mi experiencia del examen
+
+Te diré la verdad: el examen es duro, y más aún si nunca has trabajado algunas de las áreas que evalúa. En mi caso, **logré aprobarlo en el segundo intento**, y gran parte de lo que aprendí durante el proceso no estuvo relacionado únicamente con lo técnico, sino también con la forma de enfrentar los bloqueos, administrar el tiempo y mantener la cabeza fría.
+
+Ten en cuenta que, apenas comience el examen, probablemente vas a quemarte la cabeza durante un par de días. La parte web puede parecer extensa y, en cierta medida, lo es. Yo estuve atrapado durante dos días y medio, y llegué a frustrarme porque sentía que ya había enumerado todo lo habido y por haber, pero aun así no encontraba la pieza inicial del rompecabezas. Lo que finalmente me ayudó fueron tres cosas:
+
+1. **Tomar un descanso**: estar 9 horas sentado no te va a dar la solución; necesitas refrescar la cabeza para volver a pensar mejor.
+2. **Tener una pizarra**: la pizarra fue mi segundo mejor amigo durante el examen. Es verdad que hay páginas como Excalidraw y draw.io para dibujar tus diagramas mentales, pero no hay nada que se compare con llevar tus pensamientos a algo real, que puedas sentir y que te aleje de la pantalla unos minutos.
+3. **Los apuntes**: antes de entrar al examen, tomé como base el módulo de **Documentation & Reporting** y creé mi propia plantilla con los puntos que debía enumerar de un servicio o página web. Esto me ayudó a llevar un control de las cosas que probé y dónde las probé.
+
+Una vez conseguí el acceso inicial a la DMZ01, tocaba pivotar, y la herramienta perfecta para el trabajo fue **ligolo-ng**, que me acompañó durante todo el examen. Una de las cosas que más me costó fue **ver y hacer lo fácil**: me quedé estancado muchas veces, específicamente en SRV01 y WKS01. Estas dos máquinas fueron mi dolor de cabeza, y no porque la respuesta fuera difícil —de hecho es lo contrario—. Te lo cuento por partes.
+
+En SRV01 encontré la respuesta apenas llegué al sistema. Decidí probar una herramienta que entregaba el Path, pero no funcionó, así que busqué una segunda alternativa que tampoco funcionó. El peor error que cometí fue no haber buscado una tercera, y esto llevó a que perdiera mucho tiempo.
+
+Para WKS01 fue algo similar: llegué al sistema y encontré algo que llamaba la atención a la vista. Al buscar en internet, di con dos formas distintas de avanzar para el mismo objetivo, y mi error aquí fue perder el tiempo intentando la forma compleja: creé un script dentro del mismo sistema para que funcionara, e incluso le instalé Python :/. El resultado fue que insistí en algo que sabía que no funcionaba, buscándole la quinta pata al gato, cuando la respuesta era tan fácil y obvia que bastaba con mirar un poco —sin abrir ningún archivo ni nada, solo el escritorio de Windows—.
+
+Colega, tú que estás en el examen y buscas una salida: mi mejor consejo es que pienses en lo básico. Sea cual sea la etapa del examen en la que estés, el consejo se repite en cada una de ellas. No busques 1 o 2 formas de hacer algo y descartes la opción; investiga más, busca 3, 4 o hasta 5 formas de hacerlo, y ya verás que vas a encontrar la solución en una de esas. A mí me pasaba que, apenas veía el entorno, mi cabeza ya sabía la respuesta, pero el no investigar más y descartar rápido me costó mucho. Vuelve a tus apuntes del Path, revisa las playlists de IppSec y el track de HTB. Eso hice yo cuando me estanqué en AD y, créeme, la respuesta está ahí.
+
+Lo último, pero no por eso menos importante, es el informe. Este lo empecé a redactar desde el día 1: cada cadena de ataque o vulnerabilidad encontrada la documentaba al final del día. El reporte al principio me quedó desordenado, porque no tenía una estructura base, así que técnicamente tuve que modificar y estandarizar todo el documento. Eso me tomó varios días y toda una noche, pero es mejor eso que estar a última hora empezando de cero.
+
+Bueno, esa es mi experiencia y aprendizaje en el examen. Fue duro, no tanto por lo técnico sino por cómo uno piensa, y es por eso que te dejo estos consejos: me hubiera gustado que alguien me los dijera tal cual. Para finalizar esta parte, te dejo los días que me tomó cada flag durante el examen:
+
+### Primer intento
+
+- Día 1-3: Flag 1
+- Día 4:   Flags 2 y 3
+- Día 5:   Flag 4
+- Día 8:   Flag 5
+- Día 9:   Flags 6 y 7
+
+### Segundo intento
+
+Este intento me lo tomé mucho más relajado que el primero. Durante los primeros 3 días me enfoqué en reconstruir el informe y en realizar algunos ajustes estéticos en SysReptor; en los días 8-10, empecé a documentar toda la cadena de ataque de AD y algunos hallazgos que me faltaban documentar o pulir.
+
+- Día 4:   Flags 8 y 9
+- Día 5:   Flags 10 y 11
+- Día 7:   Flag 12
+- Día 8-10: Perfeccionar el informe
