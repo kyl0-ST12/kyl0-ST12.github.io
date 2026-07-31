@@ -7,4 +7,4 @@ image:
   path: /assets/img/posts/review_ctps.png
 ---
 
-## Introducción
+## Introduccion
